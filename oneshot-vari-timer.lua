@@ -1,3 +1,8 @@
+-- author: Adam Carmichael <carneeki@carneeki.net>
+-- package: compycraft
+-- descr: Looped one shot timer with countdown and lamp to indicate running
+-- state (lamp is inverted redstone signal)
+
 local runtime=5
 term.clear()
 term.setCursorPos(1,1)
